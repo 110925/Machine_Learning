@@ -1,31 +1,3 @@
 body{
   margin:0%;
 }
-
-/*NAVIGATIONBAR_START*/
-.homebutton{
-  width: 5%;
-  height: 5%;
-  padding-top: 10px;
-  padding-right: 10px;
-}
-.navbar{
-  background-color: lightgrey;
-  padding-bottom: 1%;
-  padding-left: 2%;
-}
-.navtext{
-  font-size: 3vw;
-  text-decoration: none;
-  color: black;
-  border: solid 0.3vw black;
-  border-radius: 6px;
-  padding-left: 5px;
-  padding-right: 5px;
-  transition: 0.5s;
-}
-.navtext:hover{
-  background-color: black;
-  color: white;
-}
-/*NAVIGATIONBAR_END*/
