@@ -116,10 +116,32 @@ function next() {
 }
 
 </script>
-<link rel="stylesheet"  href="styles.css"></head>
+<link rel="stylesheet"  href="style.css"></head>
 
 <body onload="init();" >
-
+<header> 
+  <ul class="navbar">
+    <div class="nav_buttons">
+      <li class="nav_logo"><a href="index.html"><img src="images/shortcuticon.png"></a></li>
+      <!--DROPDOWN_MENU-->
+      <div class="dropdown">
+        <button class="dropbtn">Information ▼</button>
+        <div class="dropdown-content">
+          <!--DROPDOWN_LINKS-->
+          <a class="nav_links" href="historyML.html">History</a>
+          <a class="nav_links"href="nowML.html">Nowadays</a>
+          <a class="nav_links"href="future.html">Future</a>
+          <a class="nav_links"href="ml.html">ML Program</a>
+          <a class="nav_links"href="video.html">Video</a>
+        </div>
+      </div>
+      <!--EXTRA_LINKS-->
+      <li><a class="nav_links"href="about.html">About us<i class="fas fa-address-card"></i></a></li>
+      <li><a class="nav_links"href="contact.html">Contact <i class="fas fa-envelope"></i></a></li>
+    </div>
+    <div class="searchbar"><div class="bar"><input type="text" placeholder="Search"></div><button class="barbutton"><i class="fas fa-search"></button></i></div>
+  </ul>
+</header>
 <h1>This Machine Learning programme reads your readingspeed.<br> Click the text when you are done reading. <br> After a while the programme has your readingspeed. Enjoy reading!</h1>
 
 <div id="textdiv" onclick="next();" style="height:300px;width: 60%;margin: 15%;background: rgba(0,0,0,0.1);transition: all 1s;padding: 3em;"></div>
