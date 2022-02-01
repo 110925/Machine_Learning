@@ -85,11 +85,14 @@ i{
 }
 .searchbar{
   display: flex;
+  align-items: center;
+  margin-right: 5%;
 }
 .barbutton{
   border: solid black 2px;
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
+  height: 25px;
 }
 .bar{
   border: solid black 2px;
@@ -120,3 +123,30 @@ hr{
   margin-right: 20%;
   font-size: 1vw;
 }
+/*Darkmode---------------------------------------------------------*/
+.dark-mode {
+  background-image: url("images/darkbackground.jpg");
+  color: white;
+}
+.dark-mode hr{
+  color: white; background-color:white;
+}
+.dark-mode .navbar{
+  background-color: #1d527a;
+}
+.dark-mode .nav_buttons{
+  background-color: #1d527a;
+}
+.dark-mode .nav_links{
+  background-color: #1d527a;
+}
+.dark-mode .nav_links:hover{
+  background-color: #2a74ac;
+}
+.dark-mode .dropbtn{
+  background-color: #1d527a;
+}
+.dark-mode .dropdown:hover{
+  background-color: #2a74ac;
+}
+.dark-mode .dropdown:hover .dropbtn {background-color: #2a74ac;}
