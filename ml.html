@@ -141,9 +141,23 @@ function next() {
       <li><a class="nav_links"href="about.html">About us<i class="fas fa-address-card"></i></a></li>
       <li><a class="nav_links"href="contact.html">Contact <i class="fas fa-envelope"></i></a></li>
     </div>
-    <div class="searchbar"><div class="bar"><input placeholder="Search"></div><button class="barbutton"><i class="fas fa-search"></button></i></div>
+    <div class="searchbar"><div class="bar"><input placeholder="Search"></div><button class="barbutton"><i class="fas fa-search"></button></i>
+    <!--DROPDOWN_MENU-->
+      <div class="dropdown">
+        <button class="dropbtn"><i class="fas fa-cog"></i></button>
+        <div class="dropdown-content">
+          <!--DROPDOWN_LINKS-->
+            <button onclick="myFunction()">Dark mode</button>
+        </div>
+      </div>
   </ul>
-</header>
+          <script>
+            function myFunction() {
+              var element = document.body;
+              element.classList.toggle("dark-mode");
+            }
+          </script>
+</header></div>
 <h1>This Machine Learning programme reads your readingspeed.<br> Click the text when you are done reading. <br> After a while the programme has your readingspeed. Enjoy reading!</h1>
 
 <div id="textdiv" onclick="next();" style="height:300px;width: 60%;margin: 15%;background: rgba(0,0,0,0.1);transition: all 1s;padding: 3em;"></div>

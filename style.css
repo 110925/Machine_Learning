@@ -264,3 +264,4 @@ textarea:focus {
   background-color: #2a74ac;
 }
 .dark-mode .dropdown:hover .dropbtn {background-color: #2a74ac;}
+.dark-mode .contact_container{background-color: darkgrey;}
