@@ -79,9 +79,13 @@ i{
   background-color: #5B96C2;
 }
 .navbar img{
-  height: 2.5vw;
+  height: 50px;
   padding-left: 0;
   margin-right: 20px;
+}
+.extra_links {
+    display: flex;
+    align-items: center;
 }
 .searchbar{
   display: flex;
@@ -98,21 +102,44 @@ i{
   border: solid black 2px;
   border-right: none;
 }
+@media only screen and (max-width: 795px){
+  .searchbar{
+    display: none;
+  }
+  .barbutton{
+    display: none;
+  }
+  .bar{
+    display: none;
+  }
+  .nav_links{
+    font-size: 10px;
+    padding: 3px;
+  }
+  .dropbtn {
+    font-size: 10px;
+  }
+  .extra_links {
+    flex-direction: column;
+    align-items: flex-start;
+  }  
+}
+
 /*NAVBAR_END------------------------------------------*/
 
 .home-page-image{
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
   border-radius: 3px; 
-  width: 60%;
+  width: 40%;
+  margin-right: 10%;
+  float: right;
 }
 .title{
   text-align: center;
   font-size: 3vw;
 }
 hr{
+  display:none;
   margin-top: 20px;
   margin-left: 20%;
   margin-right: 20%;
@@ -121,8 +148,23 @@ hr{
 .intro-text{
   margin-left: 20%;
   margin-right: 20%;
-  font-size: 1vw;
+  font-size: 1.5vw;
 }
+@media only screen and (max-width: 820px){
+  .home-page-image{  
+    display: block;
+    margin-top: 20px;
+    border-radius: 3px; 
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+  }
+  hr{
+    display: block;
+  }
+}
+
 
 /*contact----------------------------------------------*/
 .contact_container{
