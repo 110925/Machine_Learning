@@ -90,7 +90,7 @@ i{
 .searchbar{
   display: flex;
   align-items: center;
-  margin-right: 5%;
+  margin-right: 8%;
 }
 .barbutton{
   border: solid black 2px;
@@ -102,7 +102,7 @@ i{
   border: solid black 2px;
   border-right: none;
 }
-@media only screen and (max-width: 795px){
+@media only screen and (max-width: 819px){
   .searchbar{
     display: none;
   }
