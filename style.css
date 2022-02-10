@@ -170,10 +170,9 @@ iframe{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100px;
-  width:560px;
-  height:315px;
-  
+  margin-top: 200px;
+  width:1000px;
+  height:600px;
   
 }
 
@@ -318,4 +317,17 @@ textarea:focus {
 }
 .dark-mode .dropdown:hover .dropbtn {background-color: #2a74ac;}
 .dark-mode .contact_container{background-color: darkgrey;}
+
+/*history---------------------------------------------------------*/
+.history{
+  position: fixed;
+  bottom: 359px;
+  right: 50%;
+  width: 400px;
+  border: 3px solid rgb(3, 0, 0);
+  border-radius: 49px;
+  padding: 20px;
+}
+
+}
 
