@@ -338,4 +338,13 @@ textarea:focus {
   border-radius: 49px;
   padding: 20px;
   }
+  
+  /*nowadays---------------------------------------------------------*/
 
+.nowadays{position: fixed;
+  bottom: 359px;
+  right: 50%;
+  width: 400px;
+  border: 3px solid rgb(3, 0, 0);
+  border-radius: 49px;
+  padding: 20px;}
