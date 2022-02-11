@@ -138,7 +138,7 @@ i{
   text-align: center;
   font-size: 3vw;
 }
-hr{
+hr.home-hr{
   display:none;
   margin-top: 20px;
   margin-left: 20%;
@@ -160,7 +160,7 @@ hr{
     margin-right: auto;
     float: none;
   }
-  hr{
+  hr.home-hr{
     display: block;
   }
 }
