@@ -287,11 +287,12 @@ textarea:focus {
 .history-container{
   display: flex;
   flex-direction: row;
-  margin: 40px;
+  margin: 70px;
+  font-size: 25px;
 }
 .history-img-checkers{
-  width: 500px;
-  height: 500px;
+  width: 70%;
+  height: width;
 }
 .history-img-person1{
   width: 200px;
@@ -306,11 +307,7 @@ textarea:focus {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-.history-container-2{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin-right: 20px;
 }
 .htitle{
   text-align: center;
@@ -339,6 +336,7 @@ hr.history-h1{
   }
   .history-container-1 {
     flex-direction: column-reverse;
+    margin-bottom: 20px;
   }
   .history{
     margin-top:20px;
@@ -346,6 +344,14 @@ hr.history-h1{
   hr.history{
   display: none;
   }
+  .history-container{
+  margin-right: 20%;
+  margin-left: 20%;
+  }
+  .history-img-checkers{
+  width: 80%;
+  height: width;
+}
 }
 
  /*future---------------------------------------------------------*/
