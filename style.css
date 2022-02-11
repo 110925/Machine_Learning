@@ -289,6 +289,74 @@ textarea:focus {
   }
 }
 
+
+
+/*history---------------------------------------------------------*/
+.history-container{
+  display: flex;
+  flex-direction: row;
+  margin: 40px;
+}
+.history-img-checkers{
+  width: 500px;
+  height: 500px;
+}
+.history-img-person1{
+  width: 200px;
+  height: 300px;
+}
+.history-img-person2{
+  width: 400px;
+  height: 300px;
+}
+.history-container-1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.htitle{
+  text-align: center;
+}
+hr.history{
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height:3px;border-width:0;color:black;background-color:black;
+}
+hr.history-h1{
+  margin-top: 20px;
+  margin-left: 30%;
+  margin-right: 30%;
+  height:3px;border-width:0;color:black;background-color:black;
+  margin-bottom: 40px;
+}
+@media only screen and (max-width: 1230px){
+  .history-container{
+    flex-direction: column
+  }
+}
+
+ /*future---------------------------------------------------------*/
+  .future {position: fixed;
+  bottom: 359px;
+  right: 50%;
+  width: 400px;
+  border: 3px solid rgb(3, 0, 0);
+  border-radius: 49px;
+  padding: 20px;
+  }
+  
+  /*nowadays---------------------------------------------------------*/
+
+.nowadays{position: fixed;
+  bottom: 359px;
+  right: 50%;
+  width: 400px;
+  border: 3px solid rgb(3, 0, 0);
+  border-radius: 49px;
+  padding: 20px;}
+  
+
 /*Darkmode---------------------------------------------------------*/
 .dark-mode {
   background-image: url("images/darkbackground.jpg");
@@ -317,34 +385,3 @@ textarea:focus {
 }
 .dark-mode .dropdown:hover .dropbtn {background-color: #2a74ac;}
 .dark-mode .contact_container{background-color: darkgrey;}
-
-/*history---------------------------------------------------------*/
-.history{
-  position: fixed;
-  bottom: 359px;
-  right: 50%;
-  width: 400px;
-  border: 3px solid rgb(3, 0, 0);
-  border-radius: 49px;
-  padding: 20px;
-}
-
- /*future---------------------------------------------------------*/
-  .future {position: fixed;
-  bottom: 359px;
-  right: 50%;
-  width: 400px;
-  border: 3px solid rgb(3, 0, 0);
-  border-radius: 49px;
-  padding: 20px;
-  }
-  
-  /*nowadays---------------------------------------------------------*/
-
-.nowadays{position: fixed;
-  bottom: 359px;
-  right: 50%;
-  width: 400px;
-  border: 3px solid rgb(3, 0, 0);
-  border-radius: 49px;
-  padding: 20px;}
