@@ -304,12 +304,18 @@ textarea:focus {
 .history-img-person1{
   width: 200px;
   height: 300px;
+  padding-right: 5px;
 }
 .history-img-person2{
   width: 400px;
   height: 300px;
 }
 .history-container-1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.history-container-2{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -330,9 +336,23 @@ hr.history-h1{
   height:3px;border-width:0;color:black;background-color:black;
   margin-bottom: 40px;
 }
+.image-container-history{
+  display: flex;
+  justify-content: center;
+}
+
 @media only screen and (max-width: 1230px){
   .history-container{
     flex-direction: column
+  }
+  .history-container-1 {
+    flex-direction: column-reverse;
+  }
+  .history{
+    margin-top:20px;
+  }
+  hr.history{
+  display: none;
   }
 }
 
