@@ -166,15 +166,7 @@ hr.home-hr{
 }
 
 /*video----------------------------------------------*/
-iframe{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 200px;
-  width:1000px;
-  height:600px;
-  
-}
+iframe{ display: block; margin-left: auto; margin-right: auto; width:1000px; height:600px; } hr{ margin-top: 1px; margin-bottom: 15px; text-align: center; margin-left:300px; margin-right: 299px; border-width: 2px; border-color: black; } .vidtitle { display: block; text-align: center; font-size: 75px; }
 
 /*contact----------------------------------------------*/
 .contact_container{
