@@ -54,14 +54,16 @@ body{
   padding-left: 50px;
   padding-bottom: 50px;
   border-top-left-radius: 0px;
-  font-family: cursive
+  font-family: cursive;
+  box-shadow: 5px 5px 5px 5px black;
 }
 .tristan{
   position: fixed;
   left: 200px;
   font-size: 40px;
   top: 225px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ 
 }
 .lucas-inf{
   position: fixed;
@@ -76,7 +78,8 @@ body{
   padding-left: 50px;
   padding-bottom: 50px;
   border-top-right-radius: 0px;
-  font-family: cursive
+  font-family: cursive;
+  box-shadow: 5px 5px 5px 5px black;
 }
 .lucas{
   position: fixed;
