@@ -385,15 +385,56 @@ hr.history-h1{
 }
 
  /*future---------------------------------------------------------*/
-  .future {position: fixed;
-  bottom: 359px;
-  right: 50%;
-  width: 400px;
-  border: 3px solid rgb(3, 0, 0);
-  border-radius: 49px;
-  padding: 20px;
+  hr.future{
+    width: 50%;
+    position: fixed;
+    top: 225px;
+    left: 177px;
   }
-  
+  .future-tit{
+    position: fixed;
+    left: 880px;
+    font-size: 50px;
+    top: 150px;
+  }
+  .future{
+    position: fixed;
+    top: 650px;
+    width: 600px;
+    font-size: 20px;
+    left: 200px;
+  }
+  .future-2{
+    position: fixed;
+    top: 300px;
+    width: 600px;
+    font-size: 20px;
+    right: 200px ;
+  }
+  hr.img-1{
+    width: 650px;
+    position: fixed;
+    top: 625px;
+    left: -100px ;
+  }
+  hr.img-2{
+     width: 650px;
+    position: fixed;
+    right: -153px;
+    top: 425px;
+  }
+  .quantum-img{
+    position: fixed;
+    width: 370px;
+    right: 290px;
+    top: 470px;
+  }
+  .verwachting{
+    position: fixed;
+    height: 300px;
+    left: 205px;
+    top: 310px;
+  }
   /*nowadays---------------------------------------------------------*/
 
 .nowadays{
