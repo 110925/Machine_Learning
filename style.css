@@ -166,7 +166,26 @@ hr.home-hr{
 }
 
 /*video----------------------------------------------*/
-iframe{ display: block; margin-left: auto; margin-right: auto; width:1000px; height:600px; } hr{ margin-top: 1px; margin-bottom: 15px; text-align: center; margin-left:300px; margin-right: 299px; border-width: 2px; border-color: black; } .vidtitle { display: block; text-align: center; font-size: 75px; }
+iframe{ 
+  display: block;
+  margin-left: auto; 
+  margin-right: auto;
+   width:1000px; 
+   height:600px;
+    }
+     hr{ margin-top: 1px; 
+     margin-bottom: 15px;
+      text-align: center;
+       margin-left:300px;
+        margin-right: 299px;
+         border-width: 2px;
+          border-color: black;
+           }
+           .vidtitle {
+              display: block;
+               text-align: center;
+                font-size: 75px;
+                 }
 
 /*contact----------------------------------------------*/
 .contact_container{
@@ -281,7 +300,18 @@ textarea:focus {
   }
 }
 
-
+/*machine learning----------------------------------------------*/
+.frank {
+  font-size: 30px;
+  position: fixed;
+  left: 70px;
+  top: 160px;
+  border: solid black;
+  padding: 10px;
+  background-color: lightblue;
+  border-radius: 25px;
+ 
+}
 
 /*history---------------------------------------------------------*/
 .history-container{
