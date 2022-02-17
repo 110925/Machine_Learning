@@ -366,13 +366,48 @@ hr.history-h1{
   
   /*nowadays---------------------------------------------------------*/
 
-.nowadays{position: fixed;
-  bottom: 359px;
-  right: 50%;
-  width: 400px;
-  border: 3px solid rgb(3, 0, 0);
-  border-radius: 49px;
-  padding: 20px;}
+.nowadays{
+  position: fixed;
+  top: 320px;
+  width: 350px;
+  left: 450px;
+  border-right: 4px solid black;
+  height: 500px;
+}
+
+hr.title{
+  position: fixed;
+  width: 50%;
+  top: 225px; 
+  right: 240px;
+
+}
+.titn{
+  position: fixed;
+  left: 550px;
+  top: 130px;
+  font-size: 60px;
+}
+ .robot-img{
+   width: 400px;
+   height: 250px;
+   position: fixed;
+   bottom: 320px;
+   left: 850px;
+ }
+ hr.tussen{
+   position: fixed;
+  top: 570px;
+  width: 500px;
+  right: 270px;
+ }
+ .companies{
+   height: 240px;
+   width: 500px;
+    position: fixed;
+   bottom: 50px;
+   left: 850px;
+ }
   
 
 /*Darkmode---------------------------------------------------------*/
