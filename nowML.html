@@ -34,11 +34,13 @@
     <div class="searchbar"><div class="bar"><input placeholder="Search"></div><button class="barbutton"><i class="fas fa-search"></button></i>
     <!--DROPDOWN_MENU-->
       <div class="dropdown">
-        <button class="dropbtn"><i class="fas fa-cog"></i></button>
+        <button class="nav_links"><i class="fas fa-cog"></i></button>
         <div class="dropdown-content">
           <!--DROPDOWN_LINKS-->
-            <button type="button" onclick="themeToggle()">Dark mode</button>
+          <div class="settingscontainer">
+            <button class="settingsbutton" type="button" onclick="themeToggle()">Dark mode</button>
             <div id="google_translate_element"></div>
+            </div>
         </div>
       </div>
   </ul>

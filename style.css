@@ -164,6 +164,18 @@ i{
   border: solid black 2px;
   border-right: none;
 }
+.settingsbutton{
+  padding-right: 10px;
+  background-color: #4282B3;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  text-decoration: none;
+}
+.settingsbutton:hover{
+  background-color: #5B96C2;
+}
 @media only screen and (max-width: 819px){
   .searchbar{
     display: none;
@@ -185,6 +197,10 @@ i{
     flex-direction: column;
     align-items: flex-start;
   }  
+}
+.settingscontainer{
+  display: flex;
+  flex-direction: column
 }
 
 /*NAVBAR_END------------------------------------------*/
